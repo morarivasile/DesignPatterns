@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C31BDE9020CC3E9F004441E5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31BDE8F20CC3E9F004441E5 /* main.swift */; };
+		C31BDE9720CC3EC7004441E5 /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31BDE9620CC3EC7004441E5 /* Duck.swift */; };
+		C31BDE9A20CC3F32004441E5 /* IFlyBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31BDE9920CC3F32004441E5 /* IFlyBehavior.swift */; };
+		C31BDE9C20CC3F3E004441E5 /* IQuackBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31BDE9B20CC3F3E004441E5 /* IQuackBehavior.swift */; };
+		C31BDE9E20CC3F4D004441E5 /* IDisplayBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31BDE9D20CC3F4D004441E5 /* IDisplayBehavior.swift */; };
+		C31BDEA120CC43D6004441E5 /* SimpleQuackBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31BDEA020CC43D6004441E5 /* SimpleQuackBehavior.swift */; };
+		C31BDEA520CC43EC004441E5 /* NoQuackBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31BDEA420CC43EC004441E5 /* NoQuackBehavior.swift */; };
+		C31BDEAA20CC4495004441E5 /* SimpeFlyBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31BDEA920CC4495004441E5 /* SimpeFlyBehavior.swift */; };
+		C31BDEAC20CC452B004441E5 /* JetFlyBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31BDEAB20CC452B004441E5 /* JetFlyBehavior.swift */; };
+		C31BDEAF20CC4564004441E5 /* SimpleDisplayBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31BDEAE20CC4564004441E5 /* SimpleDisplayBehavior.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C31BDE8A20CC3E9F004441E5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C31BDE8C20CC3E9F004441E5 /* Strategy Pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Strategy Pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31BDE8F20CC3E9F004441E5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C31BDE9620CC3EC7004441E5 /* Duck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
+		C31BDE9920CC3F32004441E5 /* IFlyBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IFlyBehavior.swift; sourceTree = "<group>"; };
+		C31BDE9B20CC3F3E004441E5 /* IQuackBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IQuackBehavior.swift; sourceTree = "<group>"; };
+		C31BDE9D20CC3F4D004441E5 /* IDisplayBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplayBehavior.swift; sourceTree = "<group>"; };
+		C31BDEA020CC43D6004441E5 /* SimpleQuackBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleQuackBehavior.swift; sourceTree = "<group>"; };
+		C31BDEA420CC43EC004441E5 /* NoQuackBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoQuackBehavior.swift; sourceTree = "<group>"; };
+		C31BDEA920CC4495004441E5 /* SimpeFlyBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpeFlyBehavior.swift; sourceTree = "<group>"; };
+		C31BDEAB20CC452B004441E5 /* JetFlyBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JetFlyBehavior.swift; sourceTree = "<group>"; };
+		C31BDEAE20CC4564004441E5 /* SimpleDisplayBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDisplayBehavior.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C31BDE8920CC3E9F004441E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C31BDE8320CC3E9F004441E5 = {
+			isa = PBXGroup;
+			children = (
+				C31BDE8E20CC3E9F004441E5 /* Strategy Pattern */,
+				C31BDE8D20CC3E9F004441E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C31BDE8D20CC3E9F004441E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C31BDE8C20CC3E9F004441E5 /* Strategy Pattern */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C31BDE8E20CC3E9F004441E5 /* Strategy Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				C31BDE9F20CC3F91004441E5 /* Models */,
+				C31BDE9820CC3EDE004441E5 /* Behaviors */,
+				C31BDE8F20CC3E9F004441E5 /* main.swift */,
+			);
+			path = "Strategy Pattern";
+			sourceTree = "<group>";
+		};
+		C31BDE9820CC3EDE004441E5 /* Behaviors */ = {
+			isa = PBXGroup;
+			children = (
+				C31BDEAD20CC4549004441E5 /* Display Behavior */,
+				C31BDEA820CC4482004441E5 /* Fly Behavior */,
+				C31BDEA720CC4472004441E5 /* Quack Behavior */,
+				C31BDEA620CC4450004441E5 /* Behavior Models */,
+			);
+			path = Behaviors;
+			sourceTree = "<group>";
+		};
+		C31BDE9F20CC3F91004441E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C31BDE9620CC3EC7004441E5 /* Duck.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C31BDEA620CC4450004441E5 /* Behavior Models */ = {
+			isa = PBXGroup;
+			children = (
+				C31BDE9920CC3F32004441E5 /* IFlyBehavior.swift */,
+				C31BDE9B20CC3F3E004441E5 /* IQuackBehavior.swift */,
+				C31BDE9D20CC3F4D004441E5 /* IDisplayBehavior.swift */,
+			);
+			path = "Behavior Models";
+			sourceTree = "<group>";
+		};
+		C31BDEA720CC4472004441E5 /* Quack Behavior */ = {
+			isa = PBXGroup;
+			children = (
+				C31BDEA020CC43D6004441E5 /* SimpleQuackBehavior.swift */,
+				C31BDEA420CC43EC004441E5 /* NoQuackBehavior.swift */,
+			);
+			path = "Quack Behavior";
+			sourceTree = "<group>";
+		};
+		C31BDEA820CC4482004441E5 /* Fly Behavior */ = {
+			isa = PBXGroup;
+			children = (
+				C31BDEA920CC4495004441E5 /* SimpeFlyBehavior.swift */,
+				C31BDEAB20CC452B004441E5 /* JetFlyBehavior.swift */,
+			);
+			path = "Fly Behavior";
+			sourceTree = "<group>";
+		};
+		C31BDEAD20CC4549004441E5 /* Display Behavior */ = {
+			isa = PBXGroup;
+			children = (
+				C31BDEAE20CC4564004441E5 /* SimpleDisplayBehavior.swift */,
+			);
+			path = "Display Behavior";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C31BDE8B20CC3E9F004441E5 /* Strategy Pattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31BDE9320CC3E9F004441E5 /* Build configuration list for PBXNativeTarget "Strategy Pattern" */;
+			buildPhases = (
+				C31BDE8820CC3E9F004441E5 /* Sources */,
+				C31BDE8920CC3E9F004441E5 /* Frameworks */,
+				C31BDE8A20CC3E9F004441E5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Strategy Pattern";
+			productName = "Strategy Pattern";
+			productReference = C31BDE8C20CC3E9F004441E5 /* Strategy Pattern */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C31BDE8420CC3E9F004441E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Vasile Morari";
+				TargetAttributes = {
+					C31BDE8B20CC3E9F004441E5 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C31BDE8720CC3E9F004441E5 /* Build configuration list for PBXProject "Strategy Pattern" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C31BDE8320CC3E9F004441E5;
+			productRefGroup = C31BDE8D20CC3E9F004441E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C31BDE8B20CC3E9F004441E5 /* Strategy Pattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C31BDE8820CC3E9F004441E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31BDE9A20CC3F32004441E5 /* IFlyBehavior.swift in Sources */,
+				C31BDE9C20CC3F3E004441E5 /* IQuackBehavior.swift in Sources */,
+				C31BDEAA20CC4495004441E5 /* SimpeFlyBehavior.swift in Sources */,
+				C31BDEA520CC43EC004441E5 /* NoQuackBehavior.swift in Sources */,
+				C31BDEAC20CC452B004441E5 /* JetFlyBehavior.swift in Sources */,
+				C31BDE9720CC3EC7004441E5 /* Duck.swift in Sources */,
+				C31BDE9E20CC3F4D004441E5 /* IDisplayBehavior.swift in Sources */,
+				C31BDE9020CC3E9F004441E5 /* main.swift in Sources */,
+				C31BDEAF20CC4564004441E5 /* SimpleDisplayBehavior.swift in Sources */,
+				C31BDEA120CC43D6004441E5 /* SimpleQuackBehavior.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C31BDE9120CC3E9F004441E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C31BDE9220CC3E9F004441E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C31BDE9420CC3E9F004441E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZTW9545CJH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C31BDE9520CC3E9F004441E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZTW9545CJH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C31BDE8720CC3E9F004441E5 /* Build configuration list for PBXProject "Strategy Pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31BDE9120CC3E9F004441E5 /* Debug */,
+				C31BDE9220CC3E9F004441E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C31BDE9320CC3E9F004441E5 /* Build configuration list for PBXNativeTarget "Strategy Pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31BDE9420CC3E9F004441E5 /* Debug */,
+				C31BDE9520CC3E9F004441E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C31BDE8420CC3E9F004441E5 /* Project object */;
+}
