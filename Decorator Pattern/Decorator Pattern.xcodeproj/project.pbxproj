@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C30BD88B20E967FF00FEB341 /* MacBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30BD88A20E967FF00FEB341 /* MacBook.swift */; };
+		C30BD88E20E9687800FEB341 /* MacBookAir.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30BD88D20E9687800FEB341 /* MacBookAir.swift */; };
+		C30BD89020E968CD00FEB341 /* MacBookPro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30BD88F20E968CD00FEB341 /* MacBookPro.swift */; };
+		C30BD89220E9690000FEB341 /* MacBookRegular.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30BD89120E9690000FEB341 /* MacBookRegular.swift */; };
+		C30BD89420E9693B00FEB341 /* MacBookDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30BD89320E9693B00FEB341 /* MacBookDecorator.swift */; };
+		C30BD89820E969CE00FEB341 /* ProcessorUpgrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30BD89720E969CE00FEB341 /* ProcessorUpgrade.swift */; };
+		C30BD89A20E96A5A00FEB341 /* SSDUpgrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30BD89920E96A5A00FEB341 /* SSDUpgrade.swift */; };
+		C30BD89C20E96ABF00FEB341 /* TouchBarUpgrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = C30BD89B20E96ABF00FEB341 /* TouchBarUpgrade.swift */; };
+		C35ED3C920CEFAAF00C1559D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35ED3C820CEFAAF00C1559D /* main.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C35ED3C320CEFAAF00C1559D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C30BD88A20E967FF00FEB341 /* MacBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacBook.swift; sourceTree = "<group>"; };
+		C30BD88D20E9687800FEB341 /* MacBookAir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacBookAir.swift; sourceTree = "<group>"; };
+		C30BD88F20E968CD00FEB341 /* MacBookPro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacBookPro.swift; sourceTree = "<group>"; };
+		C30BD89120E9690000FEB341 /* MacBookRegular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacBookRegular.swift; sourceTree = "<group>"; };
+		C30BD89320E9693B00FEB341 /* MacBookDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacBookDecorator.swift; sourceTree = "<group>"; };
+		C30BD89720E969CE00FEB341 /* ProcessorUpgrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessorUpgrade.swift; sourceTree = "<group>"; };
+		C30BD89920E96A5A00FEB341 /* SSDUpgrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSDUpgrade.swift; sourceTree = "<group>"; };
+		C30BD89B20E96ABF00FEB341 /* TouchBarUpgrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchBarUpgrade.swift; sourceTree = "<group>"; };
+		C35ED3C520CEFAAF00C1559D /* Decorator Pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Decorator Pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35ED3C820CEFAAF00C1559D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C35ED3C220CEFAAF00C1559D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C30BD88920E967E300FEB341 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C30BD88A20E967FF00FEB341 /* MacBook.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		C30BD88C20E9685700FEB341 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C30BD89620E969BC00FEB341 /* Decorators */,
+				C30BD89520E969A400FEB341 /* MacBooks */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C30BD89520E969A400FEB341 /* MacBooks */ = {
+			isa = PBXGroup;
+			children = (
+				C30BD88D20E9687800FEB341 /* MacBookAir.swift */,
+				C30BD88F20E968CD00FEB341 /* MacBookPro.swift */,
+				C30BD89120E9690000FEB341 /* MacBookRegular.swift */,
+			);
+			path = MacBooks;
+			sourceTree = "<group>";
+		};
+		C30BD89620E969BC00FEB341 /* Decorators */ = {
+			isa = PBXGroup;
+			children = (
+				C30BD89320E9693B00FEB341 /* MacBookDecorator.swift */,
+				C30BD89720E969CE00FEB341 /* ProcessorUpgrade.swift */,
+				C30BD89920E96A5A00FEB341 /* SSDUpgrade.swift */,
+				C30BD89B20E96ABF00FEB341 /* TouchBarUpgrade.swift */,
+			);
+			path = Decorators;
+			sourceTree = "<group>";
+		};
+		C35ED3BC20CEFAAF00C1559D = {
+			isa = PBXGroup;
+			children = (
+				C35ED3C720CEFAAF00C1559D /* Decorator Pattern */,
+				C35ED3C620CEFAAF00C1559D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C35ED3C620CEFAAF00C1559D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C35ED3C520CEFAAF00C1559D /* Decorator Pattern */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C35ED3C720CEFAAF00C1559D /* Decorator Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				C30BD88C20E9685700FEB341 /* Model */,
+				C30BD88920E967E300FEB341 /* Protocols */,
+				C35ED3C820CEFAAF00C1559D /* main.swift */,
+			);
+			path = "Decorator Pattern";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C35ED3C420CEFAAF00C1559D /* Decorator Pattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C35ED3CC20CEFAAF00C1559D /* Build configuration list for PBXNativeTarget "Decorator Pattern" */;
+			buildPhases = (
+				C35ED3C120CEFAAF00C1559D /* Sources */,
+				C35ED3C220CEFAAF00C1559D /* Frameworks */,
+				C35ED3C320CEFAAF00C1559D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Decorator Pattern";
+			productName = "Decorator Pattern";
+			productReference = C35ED3C520CEFAAF00C1559D /* Decorator Pattern */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C35ED3BD20CEFAAF00C1559D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Vasile Morari";
+				TargetAttributes = {
+					C35ED3C420CEFAAF00C1559D = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = C35ED3C020CEFAAF00C1559D /* Build configuration list for PBXProject "Decorator Pattern" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C35ED3BC20CEFAAF00C1559D;
+			productRefGroup = C35ED3C620CEFAAF00C1559D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C35ED3C420CEFAAF00C1559D /* Decorator Pattern */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C35ED3C120CEFAAF00C1559D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C30BD89020E968CD00FEB341 /* MacBookPro.swift in Sources */,
+				C30BD88E20E9687800FEB341 /* MacBookAir.swift in Sources */,
+				C30BD89820E969CE00FEB341 /* ProcessorUpgrade.swift in Sources */,
+				C30BD88B20E967FF00FEB341 /* MacBook.swift in Sources */,
+				C35ED3C920CEFAAF00C1559D /* main.swift in Sources */,
+				C30BD89A20E96A5A00FEB341 /* SSDUpgrade.swift in Sources */,
+				C30BD89420E9693B00FEB341 /* MacBookDecorator.swift in Sources */,
+				C30BD89220E9690000FEB341 /* MacBookRegular.swift in Sources */,
+				C30BD89C20E96ABF00FEB341 /* TouchBarUpgrade.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C35ED3CA20CEFAAF00C1559D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C35ED3CB20CEFAAF00C1559D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C35ED3CD20CEFAAF00C1559D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZTW9545CJH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		C35ED3CE20CEFAAF00C1559D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZTW9545CJH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C35ED3C020CEFAAF00C1559D /* Build configuration list for PBXProject "Decorator Pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35ED3CA20CEFAAF00C1559D /* Debug */,
+				C35ED3CB20CEFAAF00C1559D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C35ED3CC20CEFAAF00C1559D /* Build configuration list for PBXNativeTarget "Decorator Pattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C35ED3CD20CEFAAF00C1559D /* Debug */,
+				C35ED3CE20CEFAAF00C1559D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C35ED3BD20CEFAAF00C1559D /* Project object */;
+}
